@@ -1,0 +1,44 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name":"Charizard",
+      "hp": 250,
+      "image": "pokemon/charizard.png",
+      "rating":4,
+      "comment": "Must have pokemon Card"
+    },
+    {
+      "id": 2,
+      "name":"Lugia",
+      "hp": 280,
+      "image": "pokemon/lugia.png",
+      "rating":6,
+      "comment": "powerful card to have"
+    },
+    {
+      "id": 3,
+      "name":"mewtwo",
+      "hp": 170,
+      "image": "pokemon/mewtwo.png",
+      "rating":9,
+      "comment": "I love this card"
+    },
+    {
+      "id": 4,
+      "name":"Rayquaza",
+      "hp": 180,
+      "image": "pokemon/Rayquaza.png",
+      "rating":9,
+      "comment": "A great card to own"
+    },
+    {
+      "id": 5,
+      "name":"regieleki",
+      "hp": 310,
+      "image": "pokemon/regieleki.png",
+      "rating":7,
+      "comment": "I love this new version "
+    }
+  ]
+}

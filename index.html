@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer type="text/javascript" src="./src/index.js"></script>
+</head>
+
+<body>
+  <header>
+    <img class="main__logo" src="pokemon/pokemon_logo_name.png" alt=" pokemon logo">
+    <h1>Pokemon Rating app</h1>
+  </header>
+
+  <!-- pokemon dashboard -->
+  <div id="pokemon__display"></div>
+
+  <!-- pokemon deatails -->
+  <div id="pokemon__details">
+    <img class="image__detail" src="pokemon/placeholder.png" alt="placeholder">
+    <h2 class="name">Insert pokemon name</h2>
+    <h2 class="hp">Insert HP number</h2>
+  </div>
+  <hr>
+
+  <h2>Rating:</h2>
+  <p><span class="rating__display">??</span>/10</p>
+  <br />
+  <h2>Comments:</h2>
+  <p id="comment__display">??</p>
+  <hr>
+  <!-- new pokemon form -->
+  <form id="new__pokemon">
+    <h4>Add a new Pokemon</h4>
+    <label for="name">Pokemon Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="hp">HP (hit points):</label><br>
+    <input type="text" id="hp" name="hp"><br>
+    <label for="image">image:</label><br>
+    <input type="text" id="image" name="image"><br>
+    <label for="hp">Rating:</label><br>
+    <input type="text" id="rating" name="rating"><br>
+    <label for="hp">Comment:</label><br>
+    <textarea name="comment" id="comment"></textarea><br>
+    <input type="submit" value="create"><br>
+  </form>
+  <!-- footer section -->
+  <footer>
+    <img src="pokemon/pokemon-icon.jpeg" alt="footer logo">
+    copyright 2022
+  </footer>
+
+</body>
+
+</html>
+
+<!-- END OF LINE -->

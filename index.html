@@ -11,31 +11,33 @@
 </head>
 
 <body>
+  <div class="container">
   <header>
     <img class="main__logo" src="pokemon/pokemon_logo_name.png" alt=" pokemon logo">
-    <h1>Pokemon Rating app</h1>
+    <h1>Rating app</h1>
   </header>
 
   <!-- pokemon dashboard -->
   <div id="pokemon__display"></div>
 
   <!-- pokemon deatails -->
+  <div class="details__section">
   <div id="pokemon__details">
     <img class="image__detail" src="pokemon/placeholder.png" alt="placeholder">
     <h2 class="name">Insert pokemon name</h2>
     <h2 class="hp">Insert HP number</h2>
   </div>
-  <hr>
-
   <h2>Rating:</h2>
   <p><span class="rating__display">??</span>/10</p>
   <br />
   <h2>Comments:</h2>
   <p id="comment__display">??</p>
-  <hr>
+</div>
+<br>
+<hr>
   <!-- new pokemon form -->
-  <form id="new__pokemon">
-    <h4>Add a new Pokemon</h4>
+    <h4>Add a new Pokemon below</h4>
+    <form id="new__pokemon">
     <label for="name">Pokemon Name:</label><br>
     <input type="text" id="name" name="name"><br>
     <label for="hp">HP (hit points):</label><br>
@@ -51,9 +53,9 @@
   <!-- footer section -->
   <footer>
     <img src="pokemon/pokemon-icon.jpeg" alt="footer logo">
-    copyright 2022
+    copyright 2023
   </footer>
-
+</div>
 </body>
 
 </html>

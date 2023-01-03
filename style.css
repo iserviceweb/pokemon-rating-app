@@ -1,3 +1,154 @@
-.image__detail, .main__logo{
-  width:100px;
+/* import google fonts */
+
+/* css reset */
+* {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+
+body {
+  background: #424242 url("images/body_bg.png");
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background: #e0dedee0 url("images/container_bg.png");
+
+}
+
+header {
+  background-color: rgba(44, 172, 135, 0.854);
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__logo {
+  width: 10%;
+}
+
+.details__section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pokemon__display {}
+
+#pokemon__display>img {}
+
+#pokemon__display img:last-child {}
+
+.pokemon__card:hover {}
+
+#pokemon__details {
+  position: relative;
+}
+
+.image__detail:hover {
+
+}
+
+.image__detail {
+  height: 350px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.name,
+.hp {
+  position: absolute;
+  /* left: 10px; */
+  text-align: center;
+  padding: 0.25rem 5rem 0.25rem 1rem;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+.name {
+  bottom: 60px;
+  border-radius: 10px;
+}
+
+.hp {
+  bottom: 20px;
+  border-radius: 10px;
+}
+
+#rating__display,
+#comment__display {
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: #000;
+  margin: .5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+/* |||||||| Form  |||||||| */
+
+form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+form > label{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  font-size: 1.2rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: rgba(44, 172, 135, 0.854);
+  color: #fff;
+  padding: 1rem;
+  margin: auto;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  width: 80%;
+}
+
+input:active[type="submit"] {
+  transform: scale(1.2);
+  background-color: rgba(24, 66, 54, 0.854);
+}
+
+/* ||||||| Footer ||||||| */
+
+footer {
+  background-color: #a4a4a4;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer>img {
+  padding: .5rem 0;
+  width: 5%;
+  border-radius: 5px;
 }

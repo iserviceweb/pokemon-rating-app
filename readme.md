@@ -24,6 +24,10 @@ Over the few weeks, we'll be using what we learned from previous lessons on usin
 
 <img src="pokemon/pokemon-app_progress_01.png"  style="border-radius:5px">
 
+# Session 01: With CSS Styling
+
+<img src="pokemon/pokemon_app_progress_styling.png"  style="border-radius:5px">
+
 ### 💡 How to get started
 
 Use the starter code folder to grab the basic HTML, CSS template and get started with building the tasks from Session 01 Readme file.

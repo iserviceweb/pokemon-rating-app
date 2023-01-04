@@ -42,45 +42,49 @@ header {
   align-items: center;
 }
 
-#pokemon__display {}
+/* Add this portion during live session */
+#pokemon__display {
+ 
+}
 
-#pokemon__display>img {}
+#pokemon__display>img {
 
-#pokemon__display img:last-child {}
+}
 
-.pokemon__card:hover {}
+.pokemon__card:hover {
+  
+}
 
-#pokemon__details {
+#pokemon__detail {
   position: relative;
 }
 
 .image__detail:hover {
-
+  
 }
+/*  add this section during live */
 
 .image__detail {
-  height: 350px;
+  height: 300px;
   margin-top: 1rem;
   border-radius: 10px;
 }
 
 .name,
 .hp {
-  position: absolute;
-  /* left: 10px; */
-  text-align: center;
+  position: relative;
   padding: 0.25rem 5rem 0.25rem 1rem;
   background-color: rgba(255, 255, 255, 0.705);
 }
 
 .name {
-  bottom: 60px;
-  border-radius: 10px;
+  bottom: 100px;
+  border-radius: 5px;
 }
 
 .hp {
-  bottom: 20px;
-  border-radius: 10px;
+  bottom: 90px;
+  border-radius: 5px;
 }
 
 #rating__display,

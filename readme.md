@@ -22,11 +22,11 @@ Over the few weeks, we'll be using what we learned from previous lessons on usin
 
 # Session 01: App progress
 
-<img src="pokemon/pokemon-app_progress_01.png"  style="border-radius:5px">
+<img src="images/pokemon-app_progress_01.png"  style="border-radius:5px">
 
 # Session 01: With CSS Styling
 
-<img src="pokemon/pokemon_app_progress_styling.png"  style="border-radius:5px">
+<img src="images/pokemon_app_progress_styling.png"  style="border-radius:5px">
 
 ### 💡 How to get started
 

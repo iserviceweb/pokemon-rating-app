@@ -28,9 +28,9 @@ Over the few weeks, we'll be using what we learned from previous lessons on usin
 
 <img src="images/pokemon_app_progress_styling.png"  style="border-radius:5px">
 
-# Session 02(final): Javascript funtionality 
+# Session 02(final-Demo): Javascript funtionality 
 
-<img src="images/pokemon-app_progress_02.png">
+<img src="images/poke_rating_app.gif">
 
 ### 💡 How to get started
 

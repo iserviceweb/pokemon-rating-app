@@ -28,6 +28,10 @@ Over the few weeks, we'll be using what we learned from previous lessons on usin
 
 <img src="images/pokemon_app_progress_styling.png"  style="border-radius:5px">
 
+# Session 02(final): Javascript funtionality 
+
+<img src="images/pokemon-app_progress_02.png">
+
 ### 💡 How to get started
 
 Use the starter code folder to grab the basic HTML, CSS template and get started with building the tasks from Session 01 Readme file.
